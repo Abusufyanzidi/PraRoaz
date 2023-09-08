@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 
 function Index() {
   return (
@@ -12,11 +13,10 @@ function Index() {
             </div>
             <div className="menu">
               <ul>
-                <li><a href="#">HOME</a></li>
-                <li><a href="#">ABOUT</a></li>
-                <li><a href="#">SERVICE</a></li>
-                <li><a href="#">DESIGN</a></li>
-                <li><a href="#">CONTACT</a></li>
+                <li><Link to = '/'>Home</Link></li>
+                <li><Link to = '/about'>ABOUT</Link></li>
+                <li><Link to = '/services'>SERVICES</Link></li>
+                <li><Link to = '/contact'>CONTACT</Link></li>
               </ul>
             </div>
             <div className="search">
@@ -29,7 +29,7 @@ function Index() {
             <p className="par">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt neque 
               expedita atque eveniet <br /> quis nesciunt. Quos nulla vero consequuntur, fugit nemo ad delectus 
               <br /> a quae totam ipsa illum minus laudantium?</p>
-            <button className="cn"><a href="#">JOIN US</a></button>
+            <button className="cn"><Link to = '/contact'>JOIN US</Link></button>
             <div className="form">
               <h2>Login Here</h2>
               <input type="email" name="email" placeholder="Enter Email Here" />
