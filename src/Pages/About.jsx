@@ -10,8 +10,8 @@ const AboutPage = () => {
         <h1>About Our Services</h1>
       </header>
       <section className="about-content">
-        <h2>Our Story</h2>
-        <p>
+        <h2 className='hh'>Our Story</h2>
+        <p className='hh'>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
           facilisi. Vestibulum vel neque non purus egestas suscipit sed eget
           justo. Proin viverra odio eu diam mollis, at sagittis velit interdum.
@@ -21,7 +21,7 @@ const AboutPage = () => {
       <section className="team-members">
         
         <div className="team-member">
-          <img src="AS.jpg" alt="Team Member" />
+          <img src="public\img\AS.jpg" alt="Team Member" />
           <h3>Abu Sufyan</h3>
           <p>CEO</p>
         </div>

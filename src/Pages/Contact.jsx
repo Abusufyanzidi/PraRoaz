@@ -3,8 +3,8 @@ import React from 'react';
 const ContactPage = () => {
   return (
     <div className="contact-container">
-     <h2>Contact Us</h2>
-      <p>Have questions or need assistance? Reach out to us!</p>
+     <h2 className='heading-h2'>Contact Us</h2>
+      <p className='pp'>Have questions or need assistance? Reach out to us!</p>
 
       <form className="contact-form">
         <div className="form-group">

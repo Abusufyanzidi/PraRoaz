@@ -5,7 +5,7 @@ import React from 'react';
 const Services = () => {
   return (
     <div className="services-container">
-      <h1>Our Services</h1>
+      <h1 className='heading-h1'>Our Services</h1>
       <div className="service-card">
         <img
           src="service1.jpg"
